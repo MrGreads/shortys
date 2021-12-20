@@ -4,7 +4,7 @@ from django.urls.conf import include
 
 
 
-from api.views import Redirector, Clicked
+from api.views import Redirector
 
 
 
