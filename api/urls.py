@@ -1,4 +1,4 @@
-from api.views import ShortenerCreateApiView, ShortenerListAPIView, Clicked
+from api.views import ShortenerCreateApiView, ShortenerListAPIView
 from django.urls import path
 
 app_name='api'
