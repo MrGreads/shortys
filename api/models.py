@@ -13,6 +13,7 @@ class Link(models.Model):
         ('.com', '.com'),
     )
     shortener_link_end = models.CharField(max_length=30, choices=SHIRT_SIZES)
+    clicked = models.IntegerField(default=0, help_text="not enter")
 
     def shortener(self):
         while True:
