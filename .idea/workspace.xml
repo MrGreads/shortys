@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee7c646-8299-4f94-b768-b3e35da00009" name="Default Changelist" comment="add swagger">
+    <list default="true" id="2ee7c646-8299-4f94-b768-b3e35da00009" name="Default Changelist" comment="Get urls id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shorty/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shorty/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,8 @@
       <workItem from="1640121316691" duration="99000" />
       <workItem from="1640198845944" duration="1502000" />
       <workItem from="1640200660208" duration="2007000" />
-      <workItem from="1640202689482" duration="607000" />
+      <workItem from="1640202689482" duration="1899000" />
+      <workItem from="1640204611090" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1640032892404</created>
@@ -103,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640201364568</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Get urls id">
+      <created>1640203547110</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640203547110</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +136,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="create clicker" />
     <MESSAGE value="add swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="add swagger" />
+    <MESSAGE value="Get urls id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get urls id" />
   </component>
 </project>
