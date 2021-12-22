@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee7c646-8299-4f94-b768-b3e35da00009" name="Default Changelist" comment="Get auth and add token on Linl_List" />
+    <list default="true" id="2ee7c646-8299-4f94-b768-b3e35da00009" name="Default Changelist" comment="Get auth and add token on Linl_List">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,8 @@
       <workItem from="1640198845944" duration="1502000" />
       <workItem from="1640200660208" duration="2007000" />
       <workItem from="1640202689482" duration="1899000" />
-      <workItem from="1640204611090" duration="1463000" />
+      <workItem from="1640204611090" duration="2090000" />
+      <workItem from="1640206724989" duration="491000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1640032892404</created>
@@ -114,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640206036554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Get auth and add token on Linl_List">
+      <created>1640206219654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640206219654</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
