@@ -1,5 +1,8 @@
 from django.shortcuts import redirect, render
 from rest_framework.generics import ListAPIView, CreateAPIView
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
 
 from django.views import View
 from django.conf import settings
@@ -18,9 +21,11 @@ class ShortenerCreateApiView(CreateAPIView):
     serializer_class = LinkSerializer
 
 
-class ShortenerInfo(ListAPIView):
-    queryset = Link.objects.filter(id=1)
-    serializer_class = LinkSerializer
+class ShortenerInfo(APIView):
+    def get(self, request, pk):
+        short = Link.objects.get(id=pk)
+        serializer = LinkSerializer(short)
+        return Response(serializer.data)
 
 
 

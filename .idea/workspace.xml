@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee7c646-8299-4f94-b768-b3e35da00009" name="Default Changelist" comment="create clicker">
+    <list default="true" id="2ee7c646-8299-4f94-b768-b3e35da00009" name="Default Changelist" comment="add swagger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shorty/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shorty/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shorty/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shorty/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,8 @@
       <workItem from="1640119502627" duration="1796000" />
       <workItem from="1640121316691" duration="99000" />
       <workItem from="1640198845944" duration="1502000" />
-      <workItem from="1640200660208" duration="651000" />
+      <workItem from="1640200660208" duration="2007000" />
+      <workItem from="1640202689482" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1640032892404</created>
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640118487290</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add swagger">
+      <created>1640201364568</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640201364568</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="create clicker" />
-    <option name="LAST_COMMIT_MESSAGE" value="create clicker" />
+    <MESSAGE value="add swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="add swagger" />
   </component>
 </project>
