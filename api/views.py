@@ -18,11 +18,15 @@ class ShortenerCreateApiView(CreateAPIView):
     serializer_class = LinkSerializer
 
 
+class ShortenerInfo(ListAPIView):
+    queryset = Link.objects.filter(id=1)
+    serializer_class = LinkSerializer
+
+
+
 class Redirector(View):
     def get(self, request, shortener_link, *args, **kwargs):
         shortener_link = settings.HOST_URL + '/' + self.kwargs['shortener_link']
         redirect_link = Link.objects.filter(shortened_link=shortener_link).first().original_link
-        Link.objects.filter(shortened_link=shortener_link).update(clicked=F('clicked')+1)
+        Link.objects.filter(shortened_link=shortener_link).update(clicked=F('clicked') + 1)
         return redirect(redirect_link)
-
-
