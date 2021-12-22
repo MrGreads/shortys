@@ -7,7 +7,6 @@ from rest_framework.views import APIView
 from django.contrib.auth import get_user_model
 from django.contrib.auth.models import User, Group
 
-
 from django.views import View
 from django.conf import settings
 from django.db.models import F
@@ -39,11 +38,12 @@ class ShortenerCreateApiView(CreateAPIView):
 
 
 class ShortenerInfo(APIView):
-      def get(self, request, pk):
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request, pk):
         short = Link.objects.get(id=pk)
         serializer = LinkSerializer(short)
         return Response(serializer.data)
-
 
 
 class Redirector(View):
